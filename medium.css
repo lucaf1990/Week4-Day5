@@ -10,6 +10,9 @@ header {
   position: sticky;
   top: 0;
   z-index: 10;
+  background-color: #ffc017;
+  border-bottom: 1px solid black;
+  height: 80px;
 }
 header img {
   width: 160px;
@@ -43,6 +46,31 @@ header div ul li.start {
   width: 80px;
   border-radius: 20px;
   text-align: center;
+}
+.newColor {
+  background-color: white;
+  color: #191919;
+}
+.newColor2 {
+  background-color: #13880f !important;
+}
+@keyframes changeColor {
+  0% {
+    background-color: #ffc017;
+  }
+
+  100% {
+    background-color: white;
+    color: #191919;
+  }
+}
+@keyframes greenButton {
+  0% {
+    background-color: black;
+  }
+  100% {
+    background-color: #13880f;
+  }
 }
 .m-site {
   display: flex;
@@ -92,4 +120,142 @@ section div div.button {
   border-radius: 30px;
   text-align: center;
   letter-spacing: -1px;
+}
+
+main div.trendOnMed {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  margin-left: 85px;
+  margin-top: 30px;
+  font-size: 0.8em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+main h3 {
+  margin-left: 20px;
+}
+
+section.cards {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+article {
+  display: flex;
+  margin-left: 5px;
+  height: 150px;
+  width: 29%;
+}
+.number {
+  font-size: 1.8em;
+  color: rgb(199, 199, 183);
+  font-weight: bold;
+}
+
+.picAndName {
+  margin-left: 30px;
+}
+article div p.name {
+  display: inline-block;
+  font-size: 0.8em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.picAndName img {
+  border-radius: 100%;
+  width: 20px;
+  margin-right: 10px;
+}
+
+article div img.particular {
+  border-radius: 20%;
+}
+.single-desc1 {
+  font-weight: bold;
+  margin: 5px 0;
+}
+.single-desc2 {
+  font-size: 0.8em;
+  color: rgb(117, 117, 115);
+  margin-top: 10px;
+}
+
+section.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer {
+  font-family: "Roboto", sans-serif;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.description2 {
+  margin-left: 75px;
+  width: 400px;
+}
+
+div.pics img {
+  width: 190px;
+  float: right;
+  margin-top: 10px;
+}
+
+section.thirdHalf h5 {
+  display: inline-block;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.thirdHalf {
+  width: 770px;
+  margin-bottom: 50px;
+}
+
+div img.icons {
+  border-radius: 100%;
+  width: 20px;
+}
+section.thirdHalf h4 {
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 10px 0 0 0;
+}
+section.thirdHalf p {
+  color: rgb(117, 117, 115);
+  padding: 10px 0 0 0;
+}
+section.thirdHalf p {
+  font-size: 0.9em;
+}
+section.thirdHalf p:last-of-type {
+  display: inline-block;
+}
+
+div.fixing-prop {
+  width: 550px;
+  display: flex;
+  justify-content: unset;
+  align-items: center;
+  margin-top: 5px;
+}
+
+section.thirdHalf div.fixing-prop p {
+  font-size: 0.8em;
+}
+
+.endOfLine {
+  position: relative;
+  right: -280px;
+  top: -7px;
+}
+
+span {
+  font-weight: bold;
 }
