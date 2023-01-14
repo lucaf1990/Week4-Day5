@@ -16,7 +16,7 @@ header {
 }
 header img {
   width: 160px;
-  padding-left: 75px;
+  padding-left: 105px;
 }
 
 div.begin {
@@ -79,7 +79,7 @@ header div ul li.start {
   display: flex;
   flex-direction: column;
   width: 60%;
-  margin-left: 75px;
+  margin-left: 105px;
 }
 
 .both-halfs {
@@ -128,7 +128,7 @@ main div.trendOnMed {
   align-items: center;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
-  margin-left: 85px;
+  margin-left: 105px;
   margin-top: 30px;
   font-size: 0.8em;
   font-weight: bold;
@@ -153,6 +153,7 @@ article {
   font-size: 1.8em;
   color: rgb(199, 199, 183);
   font-weight: bold;
+  margin-left: 30px;
 }
 
 .picAndName {
@@ -191,31 +192,34 @@ section.cards {
 
 footer {
   font-family: "Roboto", sans-serif;
-  padding-left: 15px;
+
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
 .description2 {
-  margin-left: 75px;
   width: 400px;
 }
 
 div.pics img {
   width: 190px;
-  float: right;
+  position: relative;
+  left: 40px;
   margin-top: 10px;
 }
 
 section.thirdHalf h5 {
   display: inline-block;
   font-size: 0.8em;
+  margin-left: 5px;
   font-weight: bold;
 }
 .thirdHalf {
-  width: 770px;
+  width: 700px;
   margin-bottom: 50px;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 div img.icons {
