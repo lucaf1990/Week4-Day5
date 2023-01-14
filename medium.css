@@ -215,8 +215,9 @@ section.thirdHalf h5 {
   margin-left: 5px;
   font-weight: bold;
 }
+
 .thirdHalf {
-  width: 700px;
+  width: 70%;
   margin-bottom: 50px;
   display: flex;
   flex-direction: row-reverse;
@@ -253,13 +254,79 @@ div.fixing-prop {
 section.thirdHalf div.fixing-prop p {
   font-size: 0.8em;
 }
-
-.endOfLine {
+.thirdHalf div.fixing-prop {
   position: relative;
-  right: -280px;
-  top: -7px;
 }
-
+.thirdHalf div.fixing-prop svg.endOfLine {
+  position: absolute;
+  top: 14px;
+  right: 124px;
+}
 span {
   font-weight: bold;
+  padding: 5px;
+  background-color: #f2f2f2;
+  color: #191919;
+  border-radius: 30px;
+}
+.icons-square {
+  border-radius: 5px;
+  width: 20px;
+}
+.last {
+  width: 30%;
+  position: relative;
+}
+
+aside {
+  width: 100%;
+  position: sticky;
+  top: 70px;
+}
+aside h6 {
+  padding: 10px 0;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+aside div {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid lightgray;
+}
+
+aside button {
+  background: none;
+  border: 1px solid lightgray;
+  color: gray;
+  padding: 10px 20px;
+  margin: 3px;
+}
+button:hover {
+  cursor: pointer;
+}
+aside ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+aside ul li {
+  color: gray;
+  padding: 10px;
+}
+.bothHalfs2 {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 70%;
+  margin-left: 100px;
+}
+
+.last {
+  width: 30%;
+  position: relative;
+  right: 150px;
+}
+
+#mainPart {
+  width: 100%;
+  display: flex;
 }
