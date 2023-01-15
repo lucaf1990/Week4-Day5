@@ -18,7 +18,9 @@ header img {
   width: 160px;
   padding-left: 105px;
 }
-
+header img:hover {
+  cursor: pointer;
+}
 div.begin {
   display: flex;
   height: 80px;
@@ -28,7 +30,7 @@ div.begin {
 header div ul {
   list-style-type: none;
   display: flex;
-  justify-content: center;
+
   align-items: center;
   width: 100%;
   justify-content: end;
@@ -38,7 +40,9 @@ header div ul {
 header div ul li {
   margin-right: 30px;
 }
-
+header div ul li:hover {
+  cursor: pointer;
+}
 header div ul li.start {
   background-color: black;
   color: white;
@@ -121,16 +125,18 @@ section div div.button {
   text-align: center;
   letter-spacing: -1px;
 }
-
+section div div.button:hover {
+  cursor: pointer;
+}
 main div.trendOnMed {
   display: flex;
   align-items: center;
-  font-weight: bold;
+
   font-family: "Roboto", sans-serif;
   margin-left: 105px;
   margin-top: 30px;
   font-size: 0.8em;
-  font-weight: bold;
+
   margin-bottom: 20px;
 }
 main h3 {
@@ -138,7 +144,6 @@ main h3 {
 }
 
 section.cards {
-  width: 100%;
   font-family: "Roboto", sans-serif;
 }
 
@@ -153,6 +158,15 @@ article {
   color: rgb(199, 199, 183);
   font-weight: bold;
   margin-left: 30px;
+}
+.particular:hover {
+  cursor: pointer;
+}
+div.picAndName img:hover {
+  cursor: pointer;
+}
+.single-desc1:hover {
+  cursor: pointer;
 }
 
 .picAndName {
@@ -187,11 +201,12 @@ section.cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  border-bottom: 1px solid#e6e6e6;
 }
 
 footer {
   font-family: "Roboto", sans-serif;
-
+  margin-top: 70px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -201,6 +216,22 @@ footer {
   width: 400px;
 }
 
+.icons:hover {
+  cursor: pointer;
+}
+
+h5:hover {
+  cursor: pointer;
+}
+h4:hover {
+  cursor: pointer;
+}
+.pics:hover {
+  cursor: pointer;
+}
+span:hover {
+  cursor: pointer;
+}
 div.pics img {
   width: 190px;
   position: relative;
@@ -278,6 +309,7 @@ span {
 }
 
 aside {
+  margin-top: 70px;
   width: 100%;
   position: sticky;
   top: 70px;
@@ -311,6 +343,10 @@ aside ul {
 aside ul li {
   color: gray;
   padding: 10px;
+  font-family: "Roboto", sans-serif;
+}
+aside ul li:hover {
+  cursor: pointer;
 }
 .bothHalfs2 {
   display: flex;
@@ -319,7 +355,7 @@ aside ul li {
   margin-left: 100px;
 }
 
-.last {
+.side-bar {
   width: 30%;
   position: relative;
   right: 150px;
