@@ -1,0 +1,68 @@
+@media screen and (max-width: 1200px) {
+  h1 {
+    font-size: 5em;
+  }
+  #mainPart {
+    margin: 0 0 0 100px;
+  }
+  header {
+    width: 1400px;
+  }
+  .both-halfs {
+    width: 1400px;
+  }
+  header div ul {
+    padding-right: 239px;
+  }
+}
+
+@media screen and (max-width: 1111px) {
+  header {
+    width: 1200px;
+  }
+  .both-halfs {
+    width: 1200px;
+  }
+  header div ul {
+    padding-right: 200px;
+  }
+}
+@media screen and (max-width: 1047px) {
+  .side-bar {
+    margin-left: 50px;
+    width: 40%;
+  }
+  #mainPart {
+    margin: 0 0 0 150px;
+  }
+  section.cards {
+    width: 1082px;
+  }
+  aside h6 {
+    width: 300px;
+  }
+  header div ul {
+    font-size: 1.3em;
+  }
+  header div ul li.start {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 860px) {
+  header div ul {
+    font-size: 1.3em;
+  }
+  header div ul li.start {
+    width: 100px;
+  }
+  #mainPart {
+    margin: 0 0 0 200px;
+  }
+}
+@media screen and (max-width: 680px) {
+  header {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+  }
+}
